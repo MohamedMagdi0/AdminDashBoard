@@ -2,11 +2,11 @@ import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Pages/Home/Home";
 import SideBar from "./Components/SideBar/SideBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import UserList from "./Components/Pages/UserList/UserList";
-import User from "./Components/Pages/User/User";
-import ProductList from "./Components/Pages/ProductList/ProductList";
-import Product from "./Components/Pages/Product/Product";
-import NewProduct from "./Components/Pages/NewProduct/NewProduct";
+import UserList from "./Pages/UserList/UserList";
+import User from "./Pages/User/User";
+import ProductList from "./Pages/ProductList/ProductList";
+import Product from "./Pages/Product/Product";
+import NewProduct from "./Pages/NewProduct/NewProduct";
 
 function App() {
   return (

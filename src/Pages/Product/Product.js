@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Product.css";
-import Charts from "../../Charts/Charts";
-import { productData } from "../../../DummyData";
+import Charts from "../../Components/Charts/Charts";
+import { productData } from "../../DummyData";
 import { Publish } from "@material-ui/icons";
 
 export default function Product() {
